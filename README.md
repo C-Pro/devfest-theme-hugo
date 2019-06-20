@@ -4,7 +4,7 @@ DevFest Theme Hugo is a theme for conferences/events.
 
 It's developed for the 2019 version of Devfest Toulouse.
 
-See a real usage here: <https://2019.devfesttoulouse.fr/>
+See a real usage here: <https://2019.devfesttoulouse.ru/>
 
 ## Building my conference site from scratch
 
@@ -59,7 +59,7 @@ googleAnalytics = "UA-XXXXXXXX-X"
     date = "2019-10-03"
     description = "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles."
     images = ["/images/social-share.jpg"]
-    email = "contact@devfesttoulouse.fr"
+    email = "contact@devfesttoulouse.ru"
     keywords = "event, gdg, gde, devfest, google, programming, android, chrome, developers, web, cloud, androiddev"
     copyright = "We :heart:️ chocolatines"
     cfpUrl = "https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
@@ -80,7 +80,7 @@ googleAnalytics = "UA-XXXXXXXX-X"
 #[[menu.main]]
 #    identifier = "jobs"
 #    name = "Jobs"
-#    url = "https://jobs.devfesttoulouse.fr/"
+#    url = "https://jobs.devfesttoulouse.ru/"
 #    weight = 200
 #    external = true
 
@@ -89,11 +89,11 @@ googleAnalytics = "UA-XXXXXXXX-X"
     weight = 1
     languageName = "gb"
 
-[languages.fr]
+[languages.ru]
     weight = 2
-    languageName = "fr"
+    languageName = "ru"
 
-[languages.fr.params]
+[languages.ru.params]
     description = "Le DevFest, ou 'Developers Festival', est une conférence technique destinée aux développeurs. Elle s'adresse aussi bien aux étudiants, aux professionnels ou tout simplement aux curieux technophiles."
 
 [taxonomies]
@@ -140,7 +140,7 @@ content:
   - title: footer_about
     links:
       - name: GDG Toulouse
-        url: http://gdgtoulouse.fr/
+        url: http://gdgtoulouse.ru/
         newTab: true
       - name: Google Developers Group
         url: https://developers.google.com/
@@ -152,19 +152,19 @@ content:
   - title: footer_previous_edition
     links:
       - name: DevFest Toulouse 2018
-        url: https://2018.devfesttoulouse.fr/
+        url: https://2018.devfesttoulouse.ru/
         newTab: true
       - name: DevFest Toulouse 2017
-        url: https://2017.devfesttoulouse.fr/
+        url: https://2017.devfesttoulouse.ru/
         newTab: true
       - name: DevFest Toulouse 2016
-        url: https://2016.devfesttoulouse.fr/
+        url: https://2016.devfesttoulouse.ru/
         newTab: true
 ```
 
 ### Home
 
-The Home page is build with markdown and calling some shortcodes. 
+The Home page is build with markdown and calling some shortcodes.
 
 #### Jumbo bloc
 
@@ -188,7 +188,7 @@ With main description and key figures.
 {{% home-info what="Participants:900,Day:1,Sessions:36,Parallel Tracks:4" class="primary" %}}
 ## What is DevFest Toulouse?
 
-The DevFest, or 'Developers Festival', is a technical conference for developers. 
+The DevFest, or 'Developers Festival', is a technical conference for developers.
 It is aimed at students, professionals or simply curious technophiles.
 {{% /home-info %}}
 ```
@@ -243,28 +243,28 @@ Display ticket information.
 {{% home-tickets %}}
 # Tickets
 
-<ul>  
+<ul>
 <li>{{< ticket name="Blind Birds"
            starts="2019-04-04"
            ends="2019-11-08"
            price="40 €"
            info="50 first places"
            soldOut="true"
-           url="https://www.billetweb.fr/devfest-toulouse-2019" >}}</li>
+           url="https://www.billetweb.ru/devfest-toulouse-2019" >}}</li>
 <li>{{< ticket name="Early Birds"
            starts="2019-04-04"
            ends="2019-11-08"
            price="60 €"
            info="70 first places"
            soldOut="true"
-           url="https://www.billetweb.fr/devfest-toulouse-2019" >}}</li>
+           url="https://www.billetweb.ru/devfest-toulouse-2019" >}}</li>
 <li>{{< ticket name="Normal"
            starts="2019-04-04"
            ends="2019-11-08"
            price="80 €"
            info="250 last places"
            soldOut=""
-           url="https://www.billetweb.fr/devfest-toulouse-2019" >}}</li>
+           url="https://www.billetweb.ru/devfest-toulouse-2019" >}}</li>
 </ul>
 
 \* Your ticket gives you access to all conferences, coffee breaks, and lunch. Accommodation is NOT included in this price.
@@ -330,7 +330,7 @@ Show your partners
 
 ### Partners
 
-A partner should have this params : 
+A partner should have this params :
 
 ```yaml
 title: NAME
@@ -347,7 +347,7 @@ A speaker should have this params :
 
 ```yaml
 id: jane_doe
-name: Mme Jane Doe 
+name: Mme Jane Doe
 company: Super Company
 featured: false
 photo: /images/speakers/jane_doe.jpg
