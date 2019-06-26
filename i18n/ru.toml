@@ -1,0 +1,75 @@
+##########
+# Header #
+##########
+
+[language_switch]
+other = "Switch to"
+
+########
+# Home #
+########
+
+[home_tickets_action]
+other = "Buy Ticket"
+
+[home_tickets_soldout]
+other = "Sold Out"
+
+[home_tickets_close]
+other = "Not available"
+
+[home_location_direction]
+other = "Место"
+
+##########
+# Footer #
+##########
+
+[footer_share]
+other = "Поделиться"
+
+[facebook_share_label]
+other = "Поделиться на Facebook"
+
+[twitter_share_text]
+other = "Пойдём на DevFest Владивосток вместе! https://devfest.gdgvl.ru #DevFest19"
+
+[twitter_share_label]
+other = "Поделиться на Twitter"
+
+[footer_follow_blog]
+other = "Подписаться на"
+
+[footer_follow_blog_blog]
+other = "блог"
+
+[footer_follow_us]
+other = "Следите за нами"
+
+[footer_about]
+other = "О нас"
+
+[footer_previous_edition]
+other = "Прошедшие мероприятия"
+
+[footer_become_partners]
+other = "Стать партнёром"
+
+[footer_become_partners_label]
+other = "Предложение для партнёров"
+
+[footer_coc]
+other = "Парвила поведения"
+
+
+################
+# Subscription #
+################
+[newsletter]
+other = "Рассылка"
+
+[subscribe_notice]
+other = "Никакого спама, только новости и анонсы мероприятия!"
+
+[subscribe_action]
+other = "Подписаться"
