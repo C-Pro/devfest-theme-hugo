@@ -45,7 +45,7 @@
       min-width: 33vw;
       display: flex;
       justify-content: space-between;
-      width: 100%;
+      max-width: 100%;
 
       @include mq($until: md) {
         margin: 0;
@@ -61,7 +61,7 @@
           content: '';
           display: block;
           height: .125rem;
-          width: 2rem;
+          max-width: 2rem;
           background-color: var(--primary);
         }
       }
