@@ -3,7 +3,7 @@
 ##########
 
 [language_switch]
-other = "Switch to"
+other = "Переключиться на"
 
 ########
 # Home #
@@ -13,10 +13,10 @@ other = "Switch to"
 other = "Buy Ticket"
 
 [home_tickets_soldout]
-other = "Sold Out"
+other = "Продано"
 
 [home_tickets_close]
-other = "Not available"
+other = "Недоступно"
 
 [home_location_direction]
 other = "Место"
