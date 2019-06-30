@@ -23,12 +23,15 @@
     }
 
     a.blog {
+      display: block;
       text-decoration: none;
       padding: var(--space-4);
       border-radius: var(--space-3);
-      display: flex;
       color: inherit;
       border-bottom: thin solid var(--darken-1);
+      @include mq($from: lg) {
+        display: flex;
+      }
 
       @include mq($until: md) {
         padding: var(--space-2);
@@ -43,11 +46,17 @@
         height: var(--size, 16rem);
         width: var(--size, 16rem);
         border-radius: var(--space-2);
+        @include mq($from: md, $until: lg) {
+          --size: 8rem;
+          float: left;
+          margin: .5em;
+        }
       }
 
       .info {
         flex: 1 1 auto;
         margin-left: var(--space-4);
+        margin-right: var(--space-4);
         justify-content: center;
 
         h2 {
@@ -82,28 +91,6 @@
           width: 100%;
         }
       }
-    }
-  }
-}
-
-@include mq($until: sm) {
-  .section.blog .blogs a.blog {
-    display: block;
-
-    .img {
-      display: none;
-    }
-  }
-}
-
-@include mq($until: lg) {
-  .section.blog .blogs a.blog {
-    display: block;
-
-    .img {
-      --size: 8rem;
-      float: left;
-      margin-right: .5em;
     }
   }
 }

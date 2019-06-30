@@ -4,9 +4,11 @@
 
 <div class="hero">
 	<h1>{{ $.Page.Params.Title }}</h1>
-	<div class="description">
-		{{ .Content }}
-	</div>
+	{{ if .Content }}
+		<div class="description">
+			{{ .Content }}
+		</div>
+	{{ end }}
 </div>
 
 <section class="blogs">
