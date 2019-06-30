@@ -20,7 +20,11 @@
 {{ partial "footer.html" . }}
 {{ end }}
 
-<script src="/theme.js" async></script>
+{{ with (getenv "HUGO_ENV") "production" }}
+	<script src="/theme.js?{{ now.Unix }}" async></script>
+{{ else }}
+	<script src="/theme.js" async></script>
+{{ end }}
 {{ block "scripts" . }}
 <!-- No extra scripts -->
 {{ end }}
