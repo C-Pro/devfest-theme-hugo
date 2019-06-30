@@ -111,11 +111,11 @@ body > header {
         }
 
         &.lang-ru::before {
-          content: '🇷🇺';
+          content: 'RU';
         }
 
         &.lang-en::before {
-          content: '🇬🇧';
+          content: 'EN';
         }
       }
 
