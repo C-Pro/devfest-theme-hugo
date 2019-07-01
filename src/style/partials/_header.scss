@@ -107,15 +107,15 @@ body > header {
         overflow: hidden;
 
         &::before {
-          color: initial;
+          color: white;
         }
 
         &.lang-ru::before {
-          content: '🇷🇺';
+          content: 'RU';
         }
 
         &.lang-en::before {
-          content: '🇬🇧';
+          content: 'EN';
         }
       }
 

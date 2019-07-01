@@ -47,7 +47,11 @@
 	{{ end }}
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="/theme.css" media="all">
+	{{ with (getenv "HUGO_ENV") "production" }}
+		<link rel="stylesheet" href="/theme.css?t={{ now.Unix }}">
+	{{ else }}
+		<link rel="stylesheet" href="/theme.css" media="all">
+	{{ end }}
 
 	{{ block "headextra" . }}
 	<!-- No extra headextra -->
